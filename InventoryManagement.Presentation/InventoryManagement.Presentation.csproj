@@ -45,11 +45,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddComputer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddComputer.Designer.cs">
+      <DependentUpon>AddComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteComputer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DeleteComputer.Designer.cs">
+      <DependentUpon>DeleteComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="InventoryManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InventoryManagementForm.Designer.cs">
       <DependentUpon>InventoryManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyComputer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModifyComputer.Designer.cs">
+      <DependentUpon>ModifyComputer.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -57,14 +81,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="SeeComputer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeeComputer.Designer.cs">
+      <DependentUpon>SeeComputer.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AddComputer.resx">
+      <DependentUpon>AddComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteComputer.resx">
+      <DependentUpon>DeleteComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventoryManagementForm.resx">
       <DependentUpon>InventoryManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyComputer.resx">
+      <DependentUpon>ModifyComputer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeComputer.resx">
+      <DependentUpon>SeeComputer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
