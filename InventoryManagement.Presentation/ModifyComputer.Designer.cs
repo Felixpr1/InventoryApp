@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbxAntivirus = new System.Windows.Forms.GroupBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbxDisclamer = new System.Windows.Forms.GroupBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtAdditionalLic = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtOfficeLic = new System.Windows.Forms.TextBox();
+            this.txtOfficeVer = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtLicense = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtOperativeSis = new System.Windows.Forms.TextBox();
+            this.txtGMMonitor = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGMPc = new System.Windows.Forms.TextBox();
+            this.txtPCName = new System.Windows.Forms.TextBox();
+            this.txtRAM = new System.Windows.Forms.TextBox();
+            this.txtModel = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBrand = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxDepartment = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gbxAntivirus.SuspendLayout();
+            this.gbxDisclamer.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -75,16 +75,16 @@
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // gbxAntivirus
             // 
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Location = new System.Drawing.Point(996, 327);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(179, 100);
-            this.groupBox2.TabIndex = 67;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Antivirus";
+            this.gbxAntivirus.Controls.Add(this.radioButton3);
+            this.gbxAntivirus.Controls.Add(this.radioButton4);
+            this.gbxAntivirus.Location = new System.Drawing.Point(996, 327);
+            this.gbxAntivirus.Name = "gbxAntivirus";
+            this.gbxAntivirus.Size = new System.Drawing.Size(179, 100);
+            this.gbxAntivirus.TabIndex = 67;
+            this.gbxAntivirus.TabStop = false;
+            this.gbxAntivirus.Text = "Antivirus";
             // 
             // radioButton3
             // 
@@ -107,16 +107,16 @@
             this.radioButton4.Text = "No";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // gbxDisclamer
             // 
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Location = new System.Drawing.Point(758, 327);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(179, 100);
-            this.groupBox1.TabIndex = 66;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Disclamer";
+            this.gbxDisclamer.Controls.Add(this.radioButton1);
+            this.gbxDisclamer.Controls.Add(this.radioButton2);
+            this.gbxDisclamer.Location = new System.Drawing.Point(758, 327);
+            this.gbxDisclamer.Name = "gbxDisclamer";
+            this.gbxDisclamer.Size = new System.Drawing.Size(179, 100);
+            this.gbxDisclamer.TabIndex = 66;
+            this.gbxDisclamer.TabStop = false;
+            this.gbxDisclamer.Text = "Disclaimer";
             // 
             // radioButton1
             // 
@@ -139,14 +139,13 @@
             this.radioButton2.Text = "No";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtAdditionalLic
             // 
-            this.textBox8.Location = new System.Drawing.Point(996, 460);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(320, 188);
-            this.textBox8.TabIndex = 65;
+            this.txtAdditionalLic.Location = new System.Drawing.Point(996, 460);
+            this.txtAdditionalLic.Multiline = true;
+            this.txtAdditionalLic.Name = "txtAdditionalLic";
+            this.txtAdditionalLic.Size = new System.Drawing.Size(320, 188);
+            this.txtAdditionalLic.TabIndex = 65;
             // 
             // label10
             // 
@@ -158,21 +157,19 @@
             this.label10.TabIndex = 64;
             this.label10.Text = "Licencias Adicionales:";
             // 
-            // textBox13
+            // txtOfficeLic
             // 
-            this.textBox13.Location = new System.Drawing.Point(910, 277);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(265, 22);
-            this.textBox13.TabIndex = 63;
+            this.txtOfficeLic.Location = new System.Drawing.Point(910, 277);
+            this.txtOfficeLic.Name = "txtOfficeLic";
+            this.txtOfficeLic.Size = new System.Drawing.Size(265, 22);
+            this.txtOfficeLic.TabIndex = 63;
             // 
-            // textBox14
+            // txtOfficeVer
             // 
-            this.textBox14.Location = new System.Drawing.Point(910, 220);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(265, 22);
-            this.textBox14.TabIndex = 62;
+            this.txtOfficeVer.Location = new System.Drawing.Point(910, 220);
+            this.txtOfficeVer.Name = "txtOfficeVer";
+            this.txtOfficeVer.Size = new System.Drawing.Size(265, 22);
+            this.txtOfficeVer.TabIndex = 62;
             // 
             // label15
             // 
@@ -194,13 +191,12 @@
             this.label16.TabIndex = 60;
             this.label16.Text = "Ver. Office:";
             // 
-            // textBox15
+            // txtLicense
             // 
-            this.textBox15.Location = new System.Drawing.Point(910, 155);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(265, 22);
-            this.textBox15.TabIndex = 59;
+            this.txtLicense.Location = new System.Drawing.Point(910, 155);
+            this.txtLicense.Name = "txtLicense";
+            this.txtLicense.Size = new System.Drawing.Size(265, 22);
+            this.txtLicense.TabIndex = 59;
             // 
             // label17
             // 
@@ -212,21 +208,19 @@
             this.label17.TabIndex = 58;
             this.label17.Text = "Licencia:";
             // 
-            // textBox9
+            // txtOperativeSis
             // 
-            this.textBox9.Location = new System.Drawing.Point(260, 649);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(265, 22);
-            this.textBox9.TabIndex = 57;
+            this.txtOperativeSis.Location = new System.Drawing.Point(260, 649);
+            this.txtOperativeSis.Name = "txtOperativeSis";
+            this.txtOperativeSis.Size = new System.Drawing.Size(265, 22);
+            this.txtOperativeSis.TabIndex = 57;
             // 
-            // textBox10
+            // txtGMMonitor
             // 
-            this.textBox10.Location = new System.Drawing.Point(260, 589);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(265, 22);
-            this.textBox10.TabIndex = 56;
+            this.txtGMMonitor.Location = new System.Drawing.Point(260, 589);
+            this.txtGMMonitor.Name = "txtGMMonitor";
+            this.txtGMMonitor.Size = new System.Drawing.Size(265, 22);
+            this.txtGMMonitor.TabIndex = 56;
             // 
             // label11
             // 
@@ -248,37 +242,33 @@
             this.label12.TabIndex = 54;
             this.label12.Text = "GM Monitor:";
             // 
-            // textBox6
+            // txtGMPc
             // 
-            this.textBox6.Location = new System.Drawing.Point(260, 527);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(265, 22);
-            this.textBox6.TabIndex = 53;
+            this.txtGMPc.Location = new System.Drawing.Point(260, 527);
+            this.txtGMPc.Name = "txtGMPc";
+            this.txtGMPc.Size = new System.Drawing.Size(265, 22);
+            this.txtGMPc.TabIndex = 53;
             // 
-            // textBox5
+            // txtPCName
             // 
-            this.textBox5.Location = new System.Drawing.Point(260, 467);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(265, 22);
-            this.textBox5.TabIndex = 52;
+            this.txtPCName.Location = new System.Drawing.Point(260, 467);
+            this.txtPCName.Name = "txtPCName";
+            this.txtPCName.Size = new System.Drawing.Size(265, 22);
+            this.txtPCName.TabIndex = 52;
             // 
-            // textBox4
+            // txtRAM
             // 
-            this.textBox4.Location = new System.Drawing.Point(260, 406);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(265, 22);
-            this.textBox4.TabIndex = 51;
+            this.txtRAM.Location = new System.Drawing.Point(260, 406);
+            this.txtRAM.Name = "txtRAM";
+            this.txtRAM.Size = new System.Drawing.Size(265, 22);
+            this.txtRAM.TabIndex = 51;
             // 
-            // textBox3
+            // txtModel
             // 
-            this.textBox3.Location = new System.Drawing.Point(260, 349);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(265, 22);
-            this.textBox3.TabIndex = 50;
+            this.txtModel.Location = new System.Drawing.Point(260, 349);
+            this.txtModel.Name = "txtModel";
+            this.txtModel.Size = new System.Drawing.Size(265, 22);
+            this.txtModel.TabIndex = 50;
             // 
             // label8
             // 
@@ -320,13 +310,12 @@
             this.label5.TabIndex = 46;
             this.label5.Text = "Modelo:";
             // 
-            // textBox2
+            // txtBrand
             // 
-            this.textBox2.Location = new System.Drawing.Point(260, 284);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(265, 22);
-            this.textBox2.TabIndex = 45;
+            this.txtBrand.Location = new System.Drawing.Point(260, 284);
+            this.txtBrand.Name = "txtBrand";
+            this.txtBrand.Size = new System.Drawing.Size(265, 22);
+            this.txtBrand.TabIndex = 45;
             // 
             // label4
             // 
@@ -338,13 +327,12 @@
             this.label4.TabIndex = 44;
             this.label4.Text = "Marca:";
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(260, 223);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(265, 22);
-            this.textBox1.TabIndex = 43;
+            this.txtUser.Location = new System.Drawing.Point(260, 223);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(265, 22);
+            this.txtUser.TabIndex = 43;
             // 
             // label3
             // 
@@ -356,13 +344,270 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "Usuario:";
             // 
-            // comboBox1
+            // cbxDepartment
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(260, 155);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(265, 24);
-            this.comboBox1.TabIndex = 41;
+            this.cbxDepartment.FormattingEnabled = true;
+            this.cbxDepartment.Items.AddRange(new object[] {
+            "Estudiantes_Practicantes",
+            "Legislatura_Municipal",
+            "Oficina_del_Alcalde",
+            "Ayuda_al_Ciudadano",
+            "Sub_Programa_Asuntos_de_la_Mujer",
+            "Sub_Programa_Personas_Impedimentos",
+            "Ayudantes_del_Alcalde",
+            "Control_de_Acceso_Vec_y_peatonal",
+            "Ayuda_al_Cuidadano__serv_comunales",
+            "Ciudad_Verde",
+            "Asuntos_Legales",
+            "Auditoría_Interna",
+            "Ofic_Protocolo_y_Coord_de_Act",
+            "Oficina_de_Planificación",
+            "CDBG_Planificación",
+            "Ordenamiento_Territorial",
+            "DC_Desarrollo_Comunal",
+            "DC_Inic_Obras_Públicas",
+            "DC_Proyecto_Impacto",
+            "DC_Proyecto_Bayamón_Empresa",
+            "DC_Diseño_y_Construcción",
+            "DC_Adquisición_y_Rehalojo",
+            "Depto_de_Finanzas",
+            "Depto_de_Recursos_Humanos",
+            "Depto_de_Secretaría",
+            "Serv_Gen_Dirección",
+            "Serv_Gen_Programa_de_Consejería",
+            "Serv_Gen_Programa_Mantenimiento",
+            "Serv_Gen_Compras_y_Suministros",
+            "Serv_Gen_Servicios_Miscelaneos",
+            "Serv_Gen_Otras_DepMun_Est_Fed",
+            "Depto_de_Servicios_Generales",
+            "Serv_Gen_Imprenta_y_Maq_Dupl",
+            "SG_Mantenimiento",
+            "SG_Mantenimiento_Casa_Alcaldía",
+            "SG_Distribución",
+            "Depto_de_Historia_y_Cultura",
+            "HC_Banda_Municipal",
+            "HC_Museo",
+            "WIA_Depto_Trabajo",
+            "WIA_Proyecto_Especial_Edward_Byrne",
+            "WIA_Welfare_of_Work",
+            "Serv_Com_Administración",
+            "Serv_Com_Empleo_y_Futuro",
+            "Serv_Com_Taller_de_Artes",
+            "Serv_Com_Prevención",
+            "Serv_Com_Alianza_y_Refugio",
+            "Serv_Com_Ciudad_Dorada",
+            "Serv_Com_Villa_Contessa",
+            "Serv_Com_Senior_Citizens",
+            "Serv_Com_ProyPater_Responsable",
+            "Serv_Com_Asist_en_el_Hogar",
+            "Serv_Com_Empleo_Envejecientes",
+            "Serv_Com_Ciud_Dor_Cefe_Cedeño",
+            "Serv_Com_Proyecto_HPRP_ARRA",
+            "HS_Olazabal",
+            "HS_Riverview",
+            "HS_Santa_Juanita_I",
+            "HS_Pueblito",
+            "HS_Sta_Olaya_I",
+            "HS_Paloma_Oficina",
+            "HS_Teresita",
+            "HS_Santa_Olaya_II",
+            "HS_Rexville",
+            "HS_Santa_Juanita_III",
+            "HS_Campo_Alegre",
+            "HS_La_Milagrosa",
+            "HS_Ciudad_del_Niño",
+            "HS_Ger_Salud_y_Des",
+            "HS_Alt_de_Flam_II",
+            "HS_Almacén",
+            "HS_Juan_Sánchez_I",
+            "HS_Administración",
+            "HS_Ger_Educación",
+            "HS_Brisas",
+            "HS_Guadiana",
+            "HS_Minillas",
+            "HS_Miraflores",
+            "HS_El_Verde",
+            "HS_Guaraguao",
+            "Hs_USI_I",
+            "HS_La_Peña",
+            "HS_Brigada",
+            "HS_Río_Hondo",
+            "HS_Feijoo",
+            "HS_San_Fernando",
+            "HS_Dajaos",
+            "HS_Bo_Nuevo_I",
+            "HS_Doña_Elena",
+            "Hs_USI_IV",
+            "HS_Villa_España",
+            "HS_Vista_Alegre",
+            "HS_Paloma_Centro",
+            "HS_Pasarell",
+            "HS_Alt_De_Flamb",
+            "HS_Flamingo",
+            "HS_Falin_Torrech",
+            "HS_Early_Oficina",
+            "Hs_USI_III",
+            "Hs_USI_II",
+            "HS_Bella_Vista",
+            "HS_Early_Sierra_Bayamón",
+            "HS_Valencia",
+            "HS_Finanzas",
+            "HS_Piñas",
+            "HS_Bay_Gdns_I",
+            "HS_Van_Scoy_II",
+            "HS_Sta_Monica",
+            "HS_Anones",
+            "HS_Margarita",
+            "HS_Alianza",
+            "HS_Alcaldia",
+            "HS_Cedro_Abajo",
+            "HS_Rio_Plantation",
+            "HS_Mi_Jardin",
+            "HS_Valle_del_Sol",
+            "HS_Bayamón_Gardens_II",
+            "HS_Cerro_Gordo",
+            "HS_Sabana",
+            "HS_Ger_S_N_N_E",
+            "HS_Virgilio_Davila",
+            "HS_Van_Scoy_I",
+            "HS_Sierra_Linda",
+            "HS_Naranjito_Pueblo",
+            "HS_HSTE_Sierra_Bayamon",
+            "HS_USDA_Administración",
+            "HS_USDA_Operaciones",
+            "HS_Municipal",
+            "HS_Child_Care_Edif_F",
+            "HS_Early_Santa_Elena",
+            "HS_Zona_VI_Adm",
+            "HS_USI_V",
+            "HS_Ciudad_del_Niño_C_C_I_Edif_A",
+            "HS_Sta_Juanita_III_C_C",
+            "HS_Flamingo_C_C_I",
+            "HS_La_Morenita",
+            "HS_Juan_Sanchez_II",
+            "HS_Riverview_CC",
+            "HS_Pueblito_CC",
+            "HS_Hato_Tejas_C_C_I",
+            "HS_Alt_de_Flamboyan_C_C_I",
+            "HS_Olazabal_CC",
+            "HS_Sta_Juanita_III_C_I",
+            "HS_Ciudad_del_Niñ_C_C_II_Edif_B",
+            "HS_Hato_Tejas",
+            "HS_Flamingo_Hills_C_C_II",
+            "HS_Alt_de_Flamboyan_C_C_II",
+            "HS_Sta_Juanita_III_C_C_II",
+            "HS_Sta_Juanita_III_C_C_III",
+            "HS_Ciudad_del_Niño_CC_III_Edif_C",
+            "HS_USDA_AdmGerencia_y_Desarrollo",
+            "HS_USDA_Pueblito",
+            "HS_USDA_Margarita",
+            "HS_USDA_StaJuanita_IV",
+            "HS_USDA_Ciudad_del_Niño",
+            "HS_USDA_AdmGer_Des_y_Salud",
+            "HS_HSTM_Zona_III",
+            "HS_HSTM_Almacen",
+            "HS_HSTM_Rio_Hondo",
+            "HS_HSTM_Sta_Juanita",
+            "HS_HSTM_Valle_del_Sol",
+            "HS_HSTM_Piña",
+            "HS_HSTM_Zona_II_Adm",
+            "HS_HSTM_Brigada",
+            "HS_HSTM_La_Peña",
+            "HS_HSTM_Van_Scoy_I",
+            "HS_HSTM_Hato_Tejas",
+            "HS_HSTM_Alt_Flamboyan",
+            "HS_HSTM_Ciudad_del_Niño",
+            "HS_HSTM_Sta_Mónica",
+            "HS_HSTM_Sta_Juanita_I",
+            "HS_HSTM_La_Milagrosa",
+            "HS_HSTM_Dajaos",
+            "HS_HSTM_Bella_Vista",
+            "HS_USDA_OPER_PASARELL",
+            "HS_EARLY_CENTRO_C_C_I",
+            "HS_LA_PRIETA",
+            "HS_Sta_Juanita_IV",
+            "HS_E_R_S_E_A",
+            "HS_LOMAS",
+            "EM_Parque_de_las_Ciencias",
+            "EM_Parque_Forestal",
+            "EM_Complejo_Onofre_Carballeira",
+            "EM_Gimnasio_Miguel_A_Frau",
+            "EM_Estadio_Juan_R_Loubriel",
+            "EM_Coliseo_Ruben_Rodríguez",
+            "Empresas_Municipales",
+            "Depto_de_Transportación",
+            "PA_Dirección",
+            "PA_Programa_Reciclaje",
+            "PA_Prog_Conserv_y_Obras",
+            "PA_Protección_Especial",
+            "OP_Dirección",
+            "OP_Ingenieria, Estudio_y_Diseño",
+            "OP_Programa_Equipo_Pesado",
+            "OP_Construcción__Mantenimiento",
+            "OP_Oficinistas_y_Delineantes",
+            "RD_Dirección",
+            "RD_Parque_Roberto_J_Jughanns",
+            "RD_Parque_Lineal",
+            "RD_Prog_Ornato_y_Mantenimiento",
+            "RD_Depto_Recreación_y_Deportes",
+            "RD_Complejo_Rafael_Martínez_Nadal",
+            "RD_Complejo_Efrain_Calcaño_Alicea",
+            "RD_Monumento_Pasea_Barbosa",
+            "RD_Cancha_Pepín_Cestero",
+            "RD_Parque_Central_de_Niños_Bay_",
+            "RD_Centros_Comunales",
+            "RD_Campo_de_Golf",
+            "RD_Campo_de_Soccer",
+            "AMMED_Programa_de_Dirección",
+            "AMMED_Búsqueda_y_Rescate",
+            "AMMED_Vigilantes_Vida_y_Propiedad",
+            "AMMED_Orientación_Adiestramiento",
+            "AMMED",
+            "AMMED_Manejo_de_Emergs_y_Desastre",
+            "Compras_Bienes_y_Suministros",
+            "DE_Programa_de_Dirección",
+            "DE_Servicio_al_Estudiantes",
+            "DE_Mant_Edificios_Escolares",
+            "DE_Programa_de_Bioblioteca",
+            "FC_Plaza_de_Mercado",
+            "FC_Terminal_Tomas_Kuilan_Pérez",
+            "FC_Terminal_Antonio_Guardarrama",
+            "FC_Terminal_Joaquín_Montesino",
+            "FC_Regl_Vendedores_Ambulantes",
+            "FC_Administración",
+            "Depto_de_Servicios_Técnicos",
+            "Depto_de_Vivienda_Municipal",
+            "DV_Programa_Home",
+            "DV_Sección_8",
+            "DV_HOME_Nueva_Construcción",
+            "DV_HOME_Adq_Hogar_Propio",
+            "Depto_de_Reforestación_y_Ornato",
+            "Paseo_Lineal_Rio_Bayamón",
+            "Cementerio_Lomas_Verde",
+            "Cementerio_Braulio_Dueño",
+            "Oficina_Gerencia_y_Presupuesto",
+            "Información_Gerencial",
+            "Seg_Púb_Dirección",
+            "Seg_Púb_Policía_Municipal",
+            "Seg_Púb__Propuesta_C_O_P_S_",
+            "Seg_Pub_Propuesta_A_R_R_A",
+            "Seg_Púb_TASS",
+            "Seg_Pub_Policias_Auxiliares",
+            "Médicina_Pre_Hosp_y_Desatre",
+            "Salud_a_tu_Alcance",
+            "Centro_de_Epidemiología",
+            "Epidemiología_Formula_Grant",
+            "Centro_de_Epidemiologia_Municipal",
+            "Ofic_de_Prensa_Y_Comunicaciones",
+            "Programa_Vigilantes_Ambientales",
+            "Programa_Nuevo_Amanecer",
+            "Program_de_Deambulantes",
+            "Alcaldía_en_tu_Comunidad",
+            "Oficina_de_Permisos"});
+            this.cbxDepartment.Location = new System.Drawing.Point(260, 155);
+            this.cbxDepartment.Name = "cbxDepartment";
+            this.cbxDepartment.Size = new System.Drawing.Size(265, 24);
+            this.cbxDepartment.TabIndex = 41;
             // 
             // label2
             // 
@@ -389,41 +634,41 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.gbxAntivirus);
+            this.Controls.Add(this.gbxDisclamer);
+            this.Controls.Add(this.txtAdditionalLic);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.txtOfficeLic);
+            this.Controls.Add(this.txtOfficeVer);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.txtLicense);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtOperativeSis);
+            this.Controls.Add(this.txtGMMonitor);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtGMPc);
+            this.Controls.Add(this.txtPCName);
+            this.Controls.Add(this.txtRAM);
+            this.Controls.Add(this.txtModel);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtBrand);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbxDepartment);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmModifyComputer";
             this.Size = new System.Drawing.Size(1583, 884);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbxAntivirus.ResumeLayout(false);
+            this.gbxAntivirus.PerformLayout();
+            this.gbxDisclamer.ResumeLayout(false);
+            this.gbxDisclamer.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,37 +677,37 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbxAntivirus;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbxDisclamer;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtAdditionalLic;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtOfficeLic;
+        private System.Windows.Forms.TextBox txtOfficeVer;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtLicense;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtOperativeSis;
+        private System.Windows.Forms.TextBox txtGMMonitor;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGMPc;
+        private System.Windows.Forms.TextBox txtPCName;
+        private System.Windows.Forms.TextBox txtRAM;
+        private System.Windows.Forms.TextBox txtModel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtBrand;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxDepartment;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

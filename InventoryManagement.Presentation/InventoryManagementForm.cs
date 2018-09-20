@@ -31,6 +31,8 @@ namespace InventoryManagement.Presentation
         private void btnAdd_Click(object sender, EventArgs e)
         {
             frmAddComputer1.BringToFront();
+            
+
         }
 
         private void InventoryManagementForm_Load(object sender, EventArgs e)

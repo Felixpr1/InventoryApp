@@ -112,5 +112,15 @@
       <DependentUpon>SeeComputer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryManagement.Domain\InventoryManagement.Domain.csproj">
+      <Project>{d01ca684-ea42-4782-88f5-6e07559361ed}</Project>
+      <Name>InventoryManagement.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventoryManagment.DataAccess\InventoryManagment.DataAccess.csproj">
+      <Project>{48578b25-cf8f-4202-905d-088b1d36d271}</Project>
+      <Name>InventoryManagment.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

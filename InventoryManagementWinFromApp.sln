@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementWinFromA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Presentation", "InventoryManagement.Presentation\InventoryManagement.Presentation.csproj", "{8CC31C59-3C5A-4309-9CC5-641A9A9C81AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Domain", "InventoryManagement.Domain\InventoryManagement.Domain.csproj", "{D01CA684-EA42-4782-88F5-6E07559361ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationLibrary", "ValidationLibrary\ValidationLibrary.csproj", "{7B4A3528-668E-4365-9B40-0424CB2313BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagment.DataAccess", "InventoryManagment.DataAccess\InventoryManagment.DataAccess.csproj", "{48578B25-CF8F-4202-905D-088B1D36D271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{8CC31C59-3C5A-4309-9CC5-641A9A9C81AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CC31C59-3C5A-4309-9CC5-641A9A9C81AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CC31C59-3C5A-4309-9CC5-641A9A9C81AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01CA684-EA42-4782-88F5-6E07559361ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01CA684-EA42-4782-88F5-6E07559361ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01CA684-EA42-4782-88F5-6E07559361ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01CA684-EA42-4782-88F5-6E07559361ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4A3528-668E-4365-9B40-0424CB2313BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4A3528-668E-4365-9B40-0424CB2313BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4A3528-668E-4365-9B40-0424CB2313BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4A3528-668E-4365-9B40-0424CB2313BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48578B25-CF8F-4202-905D-088B1D36D271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48578B25-CF8F-4202-905D-088B1D36D271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48578B25-CF8F-4202-905D-088B1D36D271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48578B25-CF8F-4202-905D-088B1D36D271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
